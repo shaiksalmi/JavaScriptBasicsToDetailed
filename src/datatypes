@@ -1,0 +1,41 @@
+/*
+There are two data types in JS.
+Primitive and non-primitive 
+primitive: Memory is fixed, which means data type is predefined.
+These are: numbers, String, boolean, BigInt, undefined, and null.
+non-primitive: It's dynamic, memeory is not fixed.
+These are: Array, objects, functions, map,list,and set.
+Identifiers: var,let, and const
+var is before ES5 and before, it's old and risky to use because anyone can go and update.
+let is introduced in modern JS in ES6.
+With let user cannot redeclare but reinitialize, but with var, user can allowed to redeclare and reintialize. 
+
+example: 
+
+var x = 10;
+var x =20; // redeclaration allowed
+x = 30; // reinitialization allowed
+
+//let - only reinitialize allowed.
+let y = 10;
+let y = 20; // redeclare not allowed- throws run time error
+y= 30; // reinitialize allowed.
+
+There is another identifier called constant.
+With const redeclaration and reinitialization both are not allowed.
+
+example:
+
+const z = 10;
+const z = 20; // redeclare not allowed- throws error at the run time.
+z = 30; // reintialization not allowed- error
+
+//constant
+//const title; //syntaxError: Missing initializer in const declaration
+//console.log(title);
+
+const role = 'qa';
+console.log(role);
+console.log(typeof role);
+
+*/
